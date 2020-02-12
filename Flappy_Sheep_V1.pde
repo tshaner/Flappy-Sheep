@@ -96,7 +96,7 @@ void sheep()
   Vky = Vky + g;
   if(ky > height || ky < 0)
   {
-    text("OH NO!!!! THE SHEEP FELL OFF THE SCREEN...", 40,34);
+    text("OH NO!!!! THE SHEEP FELL OFF THE SCREEN...", 40,300);
     gameState=1;
   }
   
