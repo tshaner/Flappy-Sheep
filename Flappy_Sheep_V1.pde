@@ -5,10 +5,10 @@ int gameState, score;
 void setup()
 {
   size(800,600);
-  bg = loadImage("Documents/Processing/img/bg.png");
-  sheep = loadImage("Documents/Processing/img/sheep.png");
-  botFence = loadImage("Documents/Processing/img/botFence.png");
-  topFence = loadImage("Documents/Processing/img/topFence.png");
+  bg = loadImage("bg.png");
+  sheep = loadImage("sheep.png");
+  botFence = loadImage("botFence.png");
+  topFence = loadImage("topFence.png");
   kx = 100;
   ky = 50;
   g = 1; //gravity
